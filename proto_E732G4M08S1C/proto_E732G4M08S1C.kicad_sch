@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3062eac5-ad35-4bd4-9fe0-12754d69cac0")
+	(paper "A4")
+	(title_block
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 201.93 81.28)
+		(size 24.13 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 1.0000)
+		)
+		(uuid "ab0b2a1d-1d94-4056-a5ed-8c51e44b7ea4")
+		(property "Sheetname" "UFP USB"
+			(at 201.93 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ufp_usb.kicad_sch"
+			(at 201.93 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 201.93 93.98 180)
+			(uuid "a17bcfef-d58e-4192-8889-ea567fd89fe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 201.93 96.52 180)
+			(uuid "31fa491c-fdda-4832-9f1f-195175771f9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FUSB_int" input
+			(at 201.93 91.44 180)
+			(uuid "7a26a758-6c5a-4758-99f2-d959dd223c89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+" input
+			(at 201.93 83.82 180)
+			(uuid "27c64f6f-d75c-4508-8372-f465f67fe242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 201.93 86.36 180)
+			(uuid "e68f2152-5f37-42e9-aea6-38566df207ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "proto_E732G4M08S1C"
+				(path "/3062eac5-ad35-4bd4-9fe0-12754d69cac0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

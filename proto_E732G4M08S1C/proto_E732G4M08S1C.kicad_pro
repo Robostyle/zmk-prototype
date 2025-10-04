@@ -629,6 +629,22 @@
     [
       "ab0b2a1d-1d94-4056-a5ed-8c51e44b7ea4",
       "UFP USB"
+    ],
+    [
+      "75d8c440-a376-467f-8e36-22615176bd2b",
+      "MCU nRF52840"
+    ],
+    [
+      "a01cfb3a-56e0-45db-b53f-763168371190",
+      "Battery charger"
+    ],
+    [
+      "ff56f265-b553-4371-8036-b8b3fc4fb93a",
+      "DFP IUSB"
+    ],
+    [
+      "6b08140a-7bb8-4cc8-afd1-e733291ab7cb",
+      "USB hub"
     ]
   ],
   "text_variables": {}

@@ -3816,7 +3816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.072 82.55 90)
 			(effects
 				(font
@@ -3952,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.2652 76.2 0)
 			(effects
 				(font
@@ -4418,7 +4418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 76.2 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.312 82.55 90)
 			(effects
 				(font
@@ -4910,7 +4910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/usb4510-spec.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 215.9 92.71 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type C Receptacle for USB 2.0, SMT Type, Mid Mount, 1.6mm Offset"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 219.71 92.71 0)
 			(effects
 				(font
@@ -5016,7 +5016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.692 82.55 90)
 			(effects
 				(font

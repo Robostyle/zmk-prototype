@@ -3101,6 +3101,10 @@
 		(uuid "e74d93a9-9e2c-4106-90e0-21e438583a61")
 	)
 	(no_connect
+		(at 170.18 114.3)
+		(uuid "129267a6-b671-4a4f-8599-158e99032ce7")
+	)
+	(no_connect
 		(at 224.79 111.76)
 		(uuid "28eb9942-5618-4f8c-883b-b6262350a28e")
 	)
@@ -3111,6 +3115,10 @@
 	(no_connect
 		(at 106.68 134.62)
 		(uuid "6d391242-f6ba-487d-b6df-2f2eabf832bd")
+	)
+	(no_connect
+		(at 144.78 119.38)
+		(uuid "92d69ade-7580-42f2-8592-3f369405ae43")
 	)
 	(no_connect
 		(at 101.6 81.28)
@@ -3662,6 +3670,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 123.19) (xy 67.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fa8563-2255-49f2-a973-4b337522978b")
+	)
+	(wire
+		(pts
 			(xy 82.55 88.9) (xy 86.36 88.9)
 		)
 		(stroke
@@ -3689,6 +3707,16 @@
 			(type default)
 		)
 		(uuid "eb31f7e1-3477-439c-887c-899d37550a89")
+	)
+	(wire
+		(pts
+			(xy 67.31 114.3) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6012c7-3e63-4360-ad13-50ea8e94c691")
 	)
 	(wire
 		(pts
@@ -3884,7 +3912,7 @@
 		(uuid "2ad7f800-20d0-42b2-ba03-31e61d088aab")
 	)
 	(hierarchical_label "D-"
-		(shape input)
+		(shape bidirectional)
 		(at 142.24 114.3 180)
 		(effects
 			(font
@@ -3895,7 +3923,7 @@
 		(uuid "3a7ac6ae-a449-47c8-8698-dbd92e274dae")
 	)
 	(hierarchical_label "D+"
-		(shape input)
+		(shape bidirectional)
 		(at 172.72 119.38 0)
 		(effects
 			(font
@@ -3999,6 +4027,72 @@
 			(project "proto_E732G4M08S1C"
 				(path "/3062eac5-ad35-4bd4-9fe0-12754d69cac0/ff56f265-b553-4371-8036-b8b3fc4fb93a"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041962e2-574d-4fce-8f90-8c083dda892e")
+		(property "Reference" "#PWR060"
+			(at 67.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6604fb7-3ee9-4f93-9377-7e36721d680a")
+		)
+		(instances
+			(project "proto_E732G4M08S1C"
+				(path "/3062eac5-ad35-4bd4-9fe0-12754d69cac0/ff56f265-b553-4371-8036-b8b3fc4fb93a"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4801,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3.3V"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -4856,10 +4950,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "654f54a8-e859-440b-9913-fe82ffeede36")
 		(property "Reference" "C8"
-			(at 115.57 67.3099 0)
+			(at 105.664 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4961,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 115.57 69.8499 0)
+			(at 102.362 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3.3V"
 			(at 82.55 68.58 0)
 			(effects
 				(font
@@ -5201,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3.3V"
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -5379,6 +5472,142 @@
 			(project "proto_E732G4M08S1C"
 				(path "/3062eac5-ad35-4bd4-9fe0-12754d69cac0/ff56f265-b553-4371-8036-b8b3fc4fb93a"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c77c550b-00d4-4faa-9fb1-ade2c4ac7f58")
+		(property "Reference" "#PWR061"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50d4c058-6f9e-4c96-ac0f-9d20a8b84074")
+		)
+		(instances
+			(project "proto_E732G4M08S1C"
+				(path "/3062eac5-ad35-4bd4-9fe0-12754d69cac0/ff56f265-b553-4371-8036-b8b3fc4fb93a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cadc21d9-9c92-4dba-96ac-1dd47ad2fa49")
+		(property "Reference" "C13"
+			(at 71.12 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 68.2752 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "485440c1-1106-48d9-931d-d8accf5d96c7")
+		)
+		(pin "1"
+			(uuid "d1975058-838b-418a-adca-c820221ab7bc")
+		)
+		(instances
+			(project "proto_E732G4M08S1C"
+				(path "/3062eac5-ad35-4bd4-9fe0-12754d69cac0/ff56f265-b553-4371-8036-b8b3fc4fb93a"
+					(reference "C13")
 					(unit 1)
 				)
 			)

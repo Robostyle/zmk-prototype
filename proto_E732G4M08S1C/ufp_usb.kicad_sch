@@ -3204,6 +3204,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8496fed8-07df-4e84-9c3c-341b1e5e20c0")
+	)
+	(wire
+		(pts
 			(xy 144.78 118.11) (xy 147.32 118.11)
 		)
 		(stroke
@@ -3394,6 +3404,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c981e0-7a31-4163-8236-2a2abb0b45a1")
+	)
+	(wire
+		(pts
 			(xy 198.12 74.93) (xy 198.12 77.47)
 		)
 		(stroke
@@ -3421,6 +3441,26 @@
 			(type default)
 		)
 		(uuid "fd54ab0f-3936-4d5c-9891-0dd01967bd1c")
+	)
+	(label "CC2"
+		(at 144.78 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "031a1b07-50c6-49ed-a7a8-35fbafdab1cd")
+	)
+	(label "CC1"
+		(at 175.26 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10dd7174-ae2a-4bbc-b946-7afd0cfb1650")
 	)
 	(label "+5V"
 		(at 119.38 92.71 0)
@@ -3566,7 +3606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3.3V"
 			(at 85.09 72.39 0)
 			(effects
 				(font
@@ -4615,7 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3.3V"
 			(at 77.47 72.39 0)
 			(effects
 				(font
@@ -5143,7 +5183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3.3V"
 			(at 69.85 72.39 0)
 			(effects
 				(font

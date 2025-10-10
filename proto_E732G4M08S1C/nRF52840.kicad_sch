@@ -2783,8 +2783,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 132.08 77.47 90)
+		(property "Value" "+VSW"
+			(at 132.08 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2907,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e6f67ea-8057-431f-9a18-c2fe969ec3ee")
 		(property "Reference" "#PWR022"
 			(at 233.68 64.77 0)
@@ -2919,7 +2918,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 233.68 55.88 0)
+			(at 233.426 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+3.3V"
 			(at 53.34 133.35 90)
 			(effects
 				(font
@@ -3106,7 +3105,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28aa231a-402b-49d2-96b1-58caef1e5273")
 		(property "Reference" "#PWR021"
 			(at 226.06 64.77 0)
@@ -3117,7 +3115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+VSW"
 			(at 226.06 55.88 0)
 			(effects
 				(font
